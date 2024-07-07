@@ -1,0 +1,261 @@
+html {
+    height: 100%;    
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home {
+    background-color: peachpuff;
+    opacity: 90%;
+}
+
+/*==========Header=========*/
+#littleheader{
+    padding-bottom: 35px;
+    position: relative;
+    height:100px;
+    background-color: lightpink;
+    text-shadow: 3px 3px 6px black;
+    text-align: center;
+}
+
+#littleheader img{
+    width:100px;
+    height:100px;
+    position: relative;
+    left:-820px;
+    top:20px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 3px 3px pink; 
+}
+
+#littleheader ul{
+    
+    display: flex;
+    position: absolute;
+    top:0px;
+    z-index: 500;
+    height: 50px;
+    width: 100%;
+    list-style: none;
+}
+
+#littleheader a:hover{
+    color:palegreen;   
+    font-size: 25px;
+    } 
+    
+
+
+#littleheader li{
+    padding-right: 70px;
+    text-decoration: none; 
+    
+}
+
+#littleheader a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left:30px;
+    font-size:25px;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+.little1{
+    z-index: 500;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    left:750px;
+    top:10px;
+}
+
+/*==========home-menu=========*/
+
+.little-menu{
+    position: absolute;
+    top:540px;
+    left:300px;
+    
+    width: 70%;
+/*    background-color: white;*/
+    display: flex;
+    flex-direction: column;
+}
+
+
+.little{
+    display: flex;
+    justify-content: space-around;
+    padding:40px;
+    align-items: center;
+    height:500px;
+    background-color: lightcoral;
+    margin-bottom: 40px;
+    position: relative;
+    border-radius: 200px;
+}
+
+
+
+.little-menu a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color:black;
+    
+   
+    
+}
+
+
+.itm1{
+    width:250px;
+    height:250px;
+    border-radius: 10px;
+    position: relative;
+}
+
+    
+.itm2{
+/*    left:350px;*/
+    width:250px;
+    height:250px;
+    border-radius: 10px;
+    position: relative;
+    left: 12px;
+    
+}
+
+   .itm3{
+
+    width:250px;
+    height:250px;
+    border-radius: 10px;
+       position: relative;
+}
+
+   .itm4{
+    width:250px;
+    height:250px;
+    border-radius: 10px;
+       position: relative;
+       left:12px;
+}
+
+.bundle1{
+    text-align: center;
+}
+
+.bundle2{
+    text-align: center;
+}
+
+.bundle3{
+    text-align: center;
+}
+
+.bundle4{
+    text-align: center;
+}
+
+.price {
+    font-weight:800;
+    font-family: sans-serif;
+}
+
+
+/*==========Banner========*/
+
+h5{
+    font-size: 38px;
+    color: seagreen;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    background-color: coral;
+    height: 250px;
+    opacity: 90%;
+    position: relative;
+    top:-40px;
+    border-radius: 300px;
+   
+}
+
+
+
+/*==========Form========*/
+
+#form{
+    position: absolute;
+    top:2530px;
+/*    left: 730px;*/
+    background-color: lightpink;
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#form h3 {
+    position: relative;
+    padding-top: 10px;
+    color: darkred;
+    font-size: 30px;
+}
+
+#form p{
+    position: relative;
+    color: black;
+}
+
+#form #name{
+    position: relative;
+    margin:2px;
+    width:500px;
+    border-radius: 6px;
+}
+
+#form #email{
+    position: relative;
+    margin:2px;
+    width:500px;
+    border-radius: 6px;
+}
+
+#form textarea{
+    position: relative;
+    margin-top:2px;
+    margin-bottom: 4px;
+    width:500px;
+    height:100px;
+    border-radius: 6px;
+}
+
+#form a {
+    position: relative;
+    background-color: seagreen;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px;
+    padding:  3px 222px;
+    border-radius: 6px;
+    }
+
+
+.contact{
+    position: relative;
+}

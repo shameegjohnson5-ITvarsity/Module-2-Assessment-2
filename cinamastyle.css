@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*=============Body etc===========*/
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', monospace;
+    
+}
+
+body{
+    background-color: slategray;
+}
+/*=============Game-Header===========*/
+
+.cinema-header{
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 4px black;
+}
+
+.cinema-header img{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px black;
+}
+
+h1{
+    color: yellow;
+    position: relative;
+    top:20px;
+    left:10px;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+/*=============Welcome Message===========*/
+
+h5{
+    background-color: yellow;
+    width:100%;
+    position: relative;
+    top:30px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color:red;
+}
+
+
+/*=============Cinema-Wrapper===========*/
+.cinema-wrap{
+    width:90%;
+/*    height:400px;*/
+/*    background-color: snow;*/
+    position: absolute;
+    top: 290px;
+    left: 90px;
+/*    box-shadow: 1px 1px 1px 1px grey;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cinema1 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+    text-align: center;
+    width:300px;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+    
+}
+
+.cinema2 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+    text-align: center;
+    width:300px;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.cinema3 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+    text-align: center;
+    width:300px;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.cinema4 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+    text-align: center;
+    width:300px;
+    color:white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.movie1{
+    color: yellow;
+    text-shadow: 2px 2px 4px black;
+}
+
+.movie2{
+    color: yellow;
+    text-shadow: 2px 2px 4px black;
+}
+
+.movie3{
+    color: yellow;
+    text-shadow: 2px 2px 4px black;
+}
+
+.movie4{
+    color: yellow;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+.cinema1 img{ 
+    width:300px;
+    height:400px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 4px black;
+    
+}
+
+.cinema2 img{ 
+    width:300px;
+    height:400px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 4px black;
+    }
+
+.cinema3 img{ 
+    width:300px;
+    height:400px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 4px black;
+    }
+
+.cinema4 img{ 
+    width:300px;
+    height:400px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 4px black;
+    }
+
+.open1{
+    background-color: darkslategray;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    padding: 5px 12px 5px 12px ;
+    margin-top: 10px;
+}
+
+.open2{
+    background-color: darkslategray;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    padding: 5px 12px 5px 12px ;
+    margin-top: 10px;
+}
+
+.open3{
+    background-color: darkslategray;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    padding: 5px 12px 5px 12px ;
+    margin-top: 10px;
+}
+
+.open4{
+    background-color: darkslategray;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    padding: 5px 12px 5px 12px ;
+    margin-top: 10px;
+}
+
+
+/*==========Form========*/
+
+#form{
+    position: absolute;
+    top:1230px;
+    background-color: darkslategray;
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+    display: flex;
+    box-shadow: 20px 20px 20px 15px black;
+}
+
+#form h3 {
+    position: relative;
+    padding-top: 10px;
+    color: yellow;
+    right:5px;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px black;
+    opacity: 100%;
+}
+
+#form p{
+    position: relative;
+    color: black;
+}
+
+#form #name{
+    position: relative;
+    margin:2px;
+    width:500px;
+    border-radius: 6px;
+    background-color:white;
+    opacity: 70%;
+    border:1px solid black;
+    text-align: center;
+}
+
+#form #email{
+    position: relative;
+    margin:2px;
+    width:500px;
+    border-radius: 6px;
+    background-color:white;
+    opacity: 70%;
+    border:1px solid black;
+    text-align: center;
+}
+
+#form textarea{
+    position: relative;
+    margin-top:2px;
+    margin-bottom: 4px;
+    width:500px;
+    height:100px;
+    border-radius: 6px;
+    background-color:white;
+    opacity: 70%;
+    border:1px solid black;
+    text-align: center;
+    
+}
+
+#form a {
+    position: relative;
+    background-color: seagreen;
+    border: solid 1px darkgreen;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px;
+    padding:  3px 222px;
+    border-radius: 6px;
+    text-shadow: 2px 2px 4px black;
+    }
+
+.field{
+    position: relative;
+    left:300px;
+    
+}
+
+.contact{
+    position: absolute;
+    left:1100px;
+    top:20px;
+    font-weight:bold;
+    font-size: 20px;
+    text-align: left;
+    color:white;
+    
+    text-shadow: 2px 2px 4px black;
+}
+
+.contact ul{
+    list-style: none;
+}
+
+h2{
+    color:yellow;
+}
+
+/*==========Single Movie========*/
+
+
+.single-movie1{
+    display: flex;
+    flex-direction: row-reverse;
+    width:1300px;
+    height:690px;
+    background-color: white;
+    position: relative;
+    top:100px;
+    left:300px;
+    box-shadow: 1px 1px 1px black;
+}
+.mymovie1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right:160px;
+    top:15px;
+}
+
+.single-movie1 img{
+    
+    width:350px;
+    height:560px;
+    position: relative;
+    right:70px;
+    top:50px;
+    box-shadow: 1px 1px 1px black;
+}
+
+.synopsis{
+    position: relative;
+    width:600px;
+}
+
+.show1{
+/*    background-color: darkslategray;*/
+    border-radius: 5px;
+    text-decoration: none;
+    color:black;
+    font-weight:bolder;
+    padding: 5px 12px 5px 12px ;
+    margin-top: 10px;
+    width:150px;
+    position: relative;
+    top:40px;
+    left:280px;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.note{
+    color:red;
+    position: relative;
+    top:40px;
+    left:100px;
+    
+}
+.title {
+    font-family: sans-serif;
+    font-size:50px;
+    font-weight: 900;
+    color:crimson;
+    text-shadow: 1px 1px 1px black;
+}
+
+/*======================= operational-hours-table =========================*/
+
+
+
+#operational-hours-table{
+    border-collapse: collapse;
+    position: relative;
+    top:60px;
+    opacity: 90%;
+    font-weight: bold;
+    
+}
+
+#operational-hours-table a{
+    text-decoration: none;
+    color:black;
+}
+
+#operational-hours-table a:hover{
+     color: white;
+}
+
+#operational-hours-table td:hover{
+    background-color: crimson;
+}
+
+
+
+
+#operational-hours-table td:nth-child(1){
+    border-top: none;
+    text-align: center;
+    border: 1px solid #131313;
+    padding: 2px;
+    width: 50px;
+    background-color: darkslategray;
+    color:white;
+    font-weight: bold;
+}
+
+
+
+
+#operational-hours-table td:nth-child(2){
+    border-top: none;
+    text-align: center;
+    border: 1px solid #131313;
+    padding: 2px;
+    width: 110px;
+}
+
+#operational-hours-table td:nth-child(3){
+    border-top: none;
+    text-align: center;
+    border: 1px solid #131313;
+    padding: 2px;
+    width: 110px;
+}
+
+
+#operational-hours-table td:nth-child(4){
+    border-top: none;
+    text-align: center;
+    border: 1px solid #131313;
+    padding: 2px;
+    width: 110px;
+}
+
+
+#operational-hours-table td:nth-child(5){
+    border-top: none;
+    text-align: center;
+    border: 1px solid #131313;
+    padding: 2px;
+    width: 110px;
+}
+
+#operational-hours-table td:nth-child(6){
+    border-top: none;
+    text-align: center;
+    border: 1px solid #131313;
+    padding: 2px;
+    width: 120px;
+}
+
+
+
+
+
+/*=========================Footer============================*/
+.parent{
+    display: flex;
+    width:100%;
+    position: absolute;
+    top:1200px;
+    height:50px;
+    
+    background-color: darkslategrey;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 4px black
+}
+
+.parent a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*=============Body etc===========*/
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', monospace;
+    
+}
+
+body{
+    background-color: lightgray;
+}
+/*=============Game-Header===========*/
+
+.game-header{
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+}
+
+.game-header img{
+    width:100px;
+    height:100px;
+    border-radius: 50px;
+}
+
+h1{
+    position: relative;
+    top:20px;
+    left:10px;
+}
+
+
+/*=============Welcome Message===========*/
+
+h5{
+    background-color: yellow;
+    width:100%;
+    position: relative;
+    top:30px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color:red;
+}
+
+
+/*=============Game-Wrapper===========*/
+.main-wrap{
+    width:70%;
+/*    height:400px;*/
+    background-color: snow;
+    position: absolute;
+    top: 290px;
+    left: 270px;
+/*    box-shadow: 1px 1px 1px 1px grey;*/
+}
+
+
+.game1 { 
+    display: flex;
+    flex-direction: column-reverse;
+    margin:20px;
+    text-align: center;
+}
+
+.game2 { 
+    display: flex;
+    flex-direction: column-reverse;
+    margin:20px;
+    text-align: center;
+}
+
+.game3 { 
+    display: flex;
+    flex-direction: column-reverse;
+    margin:20px;
+    text-align: center;
+}
+
+.game4 { 
+    display: flex;
+    flex-direction: column-reverse;
+    margin:20px;
+    text-align: center;
+}
+
+.game1 img{ 
+    width:300px;
+    height:400px;}
+
+.game2 img{ 
+    width:300px;
+    height:400px;}
+
+.game3 img{ 
+    width:300px;
+    height:400px;}
+
+.game4 img{ 
+    width:300px;
+    height:400px;}
+
+.game-wrapper1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.game-wrapper2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
