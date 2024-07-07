@@ -118,7 +118,8 @@ body{
     background-color:floralwhite;
     text-align: center;
 /*    padding:10px;*/
-    width: 70%;
+/*    width: 70%;*/
+    width:1332px;
     height:100px;
     position: absolute;
     left:250px;
